@@ -1,0 +1,8 @@
+echo "build/
+.dart_tool/
+.packages
+.idea/
+.vscode/
+*.iml
+*.log
+pubspec.lock" > .gitignore
