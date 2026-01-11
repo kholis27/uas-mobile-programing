@@ -1,0 +1,29 @@
+name: notes_crud_app
+description: Notes CRUD App - CRUD SQLite + Login Session + List/Grid + Detail + WA/Telp/Email
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local DB (SQLite)
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Open WhatsApp / Phone / Email
+  url_launcher: ^6.3.0
+
+  # Login session
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
