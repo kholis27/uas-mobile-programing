@@ -1,16 +1,45 @@
-# flutter_application_1
+# Fluttter aplication
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter yang menerapkan konsep dasar pengembangan aplikasi mobile, meliputi penggunaan widget dasar, navigasi antar halaman, serta fitur CRUD (Create, Read, Update, Delete).
 
-## Getting Started
+## 📱 Fitur Aplikasi
+- Splash Screen
+- Login Screen
+- Home Screen
+- Menampilkan data menggunakan ListView
+- Detail data
+- Tambah, Edit, dan Hapus data (CRUD)
+- Penyimpanan data lokal menggunakan SQLite
 
-This project is a starting point for a Flutter application.
+## 🛠 Teknologi yang Digunakan
+- Flutter
+- Dart
+- SQLite
+- Android Studio / VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Struktur Project
+lib/
+├── main.dart
+├── db/
+│ └── db_helper.dart
+├── models/
+├── screens/
+│ ├── splash_screen.dart
+│ ├── login_screen.dart
+│ ├── home_screen.dart
+│ ├── detail_screen.dart
+│ └── note_form_screen.dart
+├── services/
+│ └── session_service.dart
+└── widgets/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ▶️ Cara Menjalankan Aplikasi
+1. Pastikan Flutter telah terinstal
+2. Clone repository ini
+3. 3. Masuk ke folder project
+4. Install dependency 
+5. Jalankan aplikasi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📌 Catatan
+Repository ini berisi source code lengkap aplikasi Flutter dan digunakan sebagai bahan pengumpulan tugas perkuliahan.
+
